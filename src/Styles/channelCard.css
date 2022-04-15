@@ -1,0 +1,17 @@
+#channelCard{
+    position: relative;
+}
+#channel-card-body{
+    height: 93px;
+}
+#channel-title{
+    font-size: 11px;
+}
+#channel-title1{
+    text-align: left;
+     font-size: 10px;
+}
+#subdiv{
+    display: flex;
+     bottom: 5%;
+}

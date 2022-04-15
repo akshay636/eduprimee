@@ -1,0 +1,30 @@
+hr{
+    color: red;
+     
+     width: 130%;
+}
+hr:not([size]) {
+    height: 2.5px;
+}
+#dot{
+    top: -33px;
+}
+#div-text{
+    height: 106px;
+     max-height: 150px;
+     border-right: 1px solid #C4C4C4;
+     text-align: left;
+     margin-top: -14px;
+    
+}
+#div-time{
+    font-size: 10px;
+     margin-left: -3px;
+     color: #CF203F;
+}
+#div-sentence{
+    color: #4B5869;
+    font-size: 13px;
+     word-wrap: break-word;
+     text-overflow: ellipsis;
+}

@@ -1,0 +1,14 @@
+.subcard{
+    box-shadow: 0 4px 8px 0 rgba(245, 244, 244, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #27313E;
+}
+.card-video {
+    
+  }
+  .card-video .card-text {
+    margin-bottom: 5px;
+  }
+  .subcard:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.03)
+}

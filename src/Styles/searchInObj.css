@@ -1,0 +1,33 @@
+
+#subt-btn{
+    margin-top: 10px;
+    height: 27px;
+    margin-left: -39px;
+    margin-top: 19px;
+    border-radius: 5px;
+    background-color: #34C36D; color: white;
+    border: none;
+    position: absolute;
+}
+#svg-1{
+font-size: 20px;
+}
+#subt-h3{
+    margin-top: 15px;
+    text-align: left;
+     margin-left: 55px ;
+     color:#4B5869;
+}
+#subt-input{
+    position: relative;
+    border-radius: 2px;
+    height: 35px;
+    margin-top: 15px;
+    width:50%;
+    padding-right: 50px ;
+    border:none !important;
+    box-shadow: 0 4px 8px 0 rgba(245, 244, 244, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.scrollable-element {
+    scrollbar-color: red yellow;
+  }

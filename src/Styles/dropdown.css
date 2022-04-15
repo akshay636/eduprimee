@@ -1,0 +1,27 @@
+.dd{
+    box-shadow: 0 4px 8px 0 rgba(245, 244, 244, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dropdown-icon{
+    width: 167px; height: 40px; margin-right: 30px; text-align: left
+}
+.dropdown-toggle{
+    border-color:black;
+  }
+  .dropdown-toggle::after {
+    content: none;
+  }
+  .dropdown-menu{
+    width: 85%;
+    height: 169%;
+  }
+#arrowdown{
+    text-align: right;
+     position: absolute;
+     margin-right: 78px;
+     margin-top: 4px;
+
+}
+#subdiv{
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(253, 251, 251, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

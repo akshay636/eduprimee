@@ -50,6 +50,7 @@ const Home = () => {
         )
         return () => mounted = false;
     }
+
     const apiChannel = async () => {
         let mounted = true;
         let equal = input.split("channel/").pop();
@@ -65,6 +66,7 @@ const Home = () => {
         )
         return () => mounted = false;
     }
+
     const handleURLSearch = (e) => {
         e.preventDefault();
         if (text === 'Youtube url link') {
@@ -98,7 +100,7 @@ const Home = () => {
                 })
             }
             else {
-                setalertShow(true);
+                //setalertShow(true);
             }
         }
         else {
@@ -118,11 +120,13 @@ const Home = () => {
             return num;
         }
     }
+
     const url = () => {
         settext('Youtube url link');
         setcolor('green');
         setcolorr('black');
     }
+
     const channel = () => {
         setList([]);
         setcolor('green');
@@ -130,6 +134,7 @@ const Home = () => {
         setcolorr('green');
         settext('Youtube channel');
     }
+    
     const handleSubtitle = (e) => {
         e.preventDefault();
         setshow(true);

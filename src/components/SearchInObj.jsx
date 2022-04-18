@@ -133,7 +133,6 @@ const SearchInObj = (props) => {
                                views={props.checkViews(val[0]?.statistics?.viewCount)} 
                                handleClicke={handleClick}
                                setind={setind}
-
                            />
                             
                         <div 
